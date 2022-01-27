@@ -98,5 +98,27 @@ body {
     text-decoration: underline;
 }
 
+.ted {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+}
+
+.ted-icon {
+    color:#000;
+}
+
+.ted-icon > i {
+    border-radius: 200px;
+    -webkit-box-shadow: 0px 5px 28px 4px rgba(0,0,0,0.31);
+    box-shadow: 0px 5px 28px 4px rgba(0,0,0,0.31);
+}
+
+.ted-icon:hover {
+    color:#A083DF;
+    font-size: 3rem;
+}
+
 
 
